@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilos para la sección de contacto */
+.contacto-info {
+    margin-bottom: 20px;
+}
+
+.contacto-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contacto-info ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para cada sección de Acerca */
+.section-mision {
+    background-color: #f5f5f5; /* Color de fondo para la sección de misión */
+    padding: 20px;
+}
+
+.section-proposito {
+    background-color: #eaeaea; /* Color de fondo para la sección de propósito */
+    padding: 20px;
+}
+
+.section-valores {
+    background-color: #dcdcdc; /* Color de fondo para la sección de valores */
+    padding: 20px;
+}
+
+.section-historia {
+    background-color: #c0c0c0; /* Color de fondo para la sección de historia */
+    padding: 20px;
+}
+
+

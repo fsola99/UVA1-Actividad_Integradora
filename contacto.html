@@ -4,112 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alberto Malito Metales - Contacto</title>   
-    <style>
-        /* Estilos generales */
-        header {
-            background-color: hwb(226 3% 23%);
-            padding: 20px; /* Espacio alrededor del encabezado */
-        }
-        
-        header ul {
-            list-style-type: none; /* Quita los puntos de lista */
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        
-        header ul li {
-            display: inline-block;
-            margin-right: 20px; /* Espacio entre cada elemento */
-        }
-        
-        header ul li:last-child {
-            margin-right: 0; /* Elimina el espacio después del último elemento */
-        }
-        
-        header ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 18px; /* Tamaño del texto */
-        }
-        
-        header ul li a:hover {
-            text-decoration: underline; /* Subrayado al mouse over*/
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-        
-        /* Estilos para el contenido */
-        .container {
-            max-width: 800px; /* Ancho máximo del contenido */
-            margin: 0 auto; /* Centra el contenido en la página */
-            padding: 20px; /* Añade espacio alrededor del contenido */
-        }
-        
-        h2 {
-            color: #3498db; /* Color del título */
-        }
-        
-        p {
-            line-height: 1.6; /* Altura de línea para una mejor legibilidad */
-        }
-        
-        form {
-            margin-top: 20px; /* Espacio entre el mensaje y el formulario */
-        }
-        
-        label {
-            display: block; /* Muestra cada campo del formulario en una línea */
-            margin-bottom: 10px; /* Espacio entre cada campo */
-        }
-        
-        input[type="text"],
-        input[type="email"],
-        input[type="tel"],
-        textarea {
-            width: 100%; /* Ocupa todo el ancho disponible */
-            padding: 8px; /* Espacio interno del campo */
-            margin-bottom: 10px; /* Espacio entre cada campo */
-            border: 1px solid #ccc; /* Borde del campo */
-            border-radius: 4px; /* Bordes redondeados */
-            box-sizing: border-box; /* Incluye el borde y el relleno en el ancho total */
-        }
-        
-        input[type="submit"] {
-            background-color: #3498db; /* Color de fondo del botón de enviar */
-            color: #fff; /* Color del texto del botón de enviar */
-            padding: 10px 20px; /* Espacio interno del botón */
-            border: none; /* Borde del botón */
-            border-radius: 4px; /* Bordes redondeados */
-            cursor: pointer; /* Cambia el cursor al pasar el ratón */
-        }
-        
-        input[type="submit"]:hover {
-            background-color: #2980b9; /* Color de fondo del botón al pasar el ratón */
-        }
-    </style>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/formulario.css">
 </head>
-<header>
-    <ul>
-        <li><a href="inicio.html">Inicio</a></li>
-        <li><a href="acerca.html">Acerca de</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</header>
 <body>
+    <header>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </header>
     <div class="container">
         <h2>Contacto</h2>
-        <p>Para comunicarse con nosotros, complete el formulario o vía mail puede hacerlo a las siguientes direcciones:</p>
-        <ul>
-            <li>ventas@albertomalito.com.ar</li>
-            <li>administracion@albertomalito.com.ar</li>
-            <li>compras@albertomalito.com.ar</li>
-        </ul>
+        <div class="contacto-info">
+            <p>Para comunicarse con nosotros, complete el formulario o vía mail puede hacerlo a las siguientes direcciones:</p>
+            <ul>
+                <li>ventas@albertomalito.com.ar</li>
+                <li>administracion@albertomalito.com.ar</li>
+                <li>compras@albertomalito.com.ar</li>
+            </ul>
+        </div>
         
         <h3>Formulario de Contacto</h3>
         <form action="#" method="post">

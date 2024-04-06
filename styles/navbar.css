@@ -1,0 +1,36 @@
+/* Estilos generales del header */
+header {
+    background-color: #3511c2; /* Color azul */
+    padding: 20px;
+}
+
+/* Estilos de la lista de navegación */
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos de cada elemento de la lista */
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Estilos del último elemento de la lista */
+header ul li:last-child {
+    margin-right: 0;
+}
+
+/* Estilos de los enlaces dentro de los elementos de la lista */
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos de los enlaces al pasar el ratón por encima */
+header ul li a:hover {
+    text-decoration: underline;
+}
