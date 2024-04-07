@@ -1,0 +1,32 @@
+footer {
+    background-color: #1114c2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both; /* Añadimos esta propiedad para asegurarnos de que el footer se coloque correctamente después de todo el contenido */
+    position: relative; /* Cambiamos la posición a relativa */
+    margin-top: 0px; /* Agregamos un margen negativo para compensar el espacio vacío que se estaba viendo */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.uade-logo {
+    max-width: 100px;
+    filter: brightness(0) invert(1);
+}

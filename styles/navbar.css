@@ -1,6 +1,6 @@
 /* Estilos generales del header */
 header {
-    background-color: #3511c2; /* Color azul */
+    background-color: #1114c2;
     padding: 20px;
 }
 
@@ -10,6 +10,7 @@ header ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: inline-block;
 }
 
 /* Estilos de cada elemento de la lista */
@@ -28,9 +29,17 @@ header ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 /* Estilos de los enlaces al pasar el ratón por encima */
 header ul li a:hover {
     text-decoration: underline;
+}
+/* Estilos para el logo de la empresa en el navbar */
+header img {
+    max-width: 75px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 20px;
 }
