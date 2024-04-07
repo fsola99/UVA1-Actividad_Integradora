@@ -56,21 +56,48 @@ p {
 
 /* Estilos para sección quiénes somos en index.html */
 
-/* Estilos de la sección Quiénes Somos */
 #quienes-somos {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-/* Estilos del texto de Quiénes Somos */
 .quienes-somos-text {
     flex: 1;
     margin-right: 20px;
 }
 
-/* Estilos de la imagen de Quiénes Somos */
 .quienes-somos-image img {
     max-width: 750px;
     height: auto;
+}
+
+/* Estilo específico para la sección de productos */
+
+.product-section {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    flex: 2;
+}
+
+.product-details h3 {
+    color: #3498db;
+}
+
+.product-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }

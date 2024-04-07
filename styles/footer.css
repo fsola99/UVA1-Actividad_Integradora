@@ -3,9 +3,9 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    clear: both; /* Añadimos esta propiedad para asegurarnos de que el footer se coloque correctamente después de todo el contenido */
-    position: relative; /* Cambiamos la posición a relativa */
-    margin-top: 0px; /* Agregamos un margen negativo para compensar el espacio vacío que se estaba viendo */
+    clear: both;
+    position: relative;
+    margin-top: 0px;
 }
 
 .footer-content {
