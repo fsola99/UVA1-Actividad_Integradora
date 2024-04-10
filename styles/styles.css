@@ -101,3 +101,31 @@ p {
     list-style-type: disc;
     padding-left: 20px;
 }
+
+/* Estilo para el contenedor del servicio */
+.service-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.service-text {
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.service-title {
+    text-align: left;
+    margin-bottom: -15px; 
+}
+
+.service-image {
+    display: flex;
+    justify-content: center;
+}
+
+.service-image img {
+    max-width: 750px;
+    height: auto;
+}
